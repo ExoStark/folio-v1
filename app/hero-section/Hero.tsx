@@ -53,7 +53,7 @@ const Hero = () => {
               src={profile}
               priority
               alt="Hope&apos;s headshot"
-              data-blobity-tooltip="Hope Nexus"
+              data-blobity-tooltip="Creative Designer"
               data-blobity-invert="false"
               className="w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
@@ -71,7 +71,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Web Designer, currently available for work.
+            Graphic Designer and Creative Freelancer, currently available for projects.
           </p>
         </motion.div>
 
@@ -80,7 +80,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely.
+            Specializing in branding, visual identity, and digital design.
           </p>
         </motion.div>
       </div>
