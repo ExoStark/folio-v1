@@ -68,7 +68,7 @@ const Hero = () => {
         >
           {/* UPDATE: Change "VICTOR WILLIAMS" to YOUR NAME */}
           <AnimatedWords
-            title="YOUR NAME HERE" 
+            title="HOPE NEXUS" 
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4 text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] font-extrabold text-[#e4ded7]"
           />
           <motion.div
