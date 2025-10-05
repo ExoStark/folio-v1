@@ -115,8 +115,9 @@ const Hero = () => {
             className="hidden max-w-[300px] sm:block sm:max-w-[400px]"
             variants={bodyAnimation}
           >
+            {/* FIXED: Replaced 'I'm' with 'I&apos;m' to resolve the react/no-unescaped-entities error */}
             <p className="text-right text-[15px] font-medium text-[#a1a1a1] md:text-[17px] leading-relaxed">
-              Based in **[Your City]**. I'm currently **open for new commissions** and **long-term creative partnerships** globally.
+              Based in **[Your City]**. I&apos;m currently **open for new commissions** and **long-term creative partnerships** globally.
             </p>
           </motion.div>
         </div>
